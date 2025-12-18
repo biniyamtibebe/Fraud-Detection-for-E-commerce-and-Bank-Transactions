@@ -1,0 +1,13 @@
+.week5/
+.vscode/
+data/
+data/raw/
+*data/*.csv
+_pycache_/
+*._pycache_
+.ipynb_checkpoints
+.vscode/
+data/raw/IpAddress_to_country.csv 
+data/raw/Fraud_Data.csv
+data
+data/raw/creditcard.csv
