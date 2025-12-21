@@ -8,15 +8,23 @@ _____
 ## Repository Structure
 
 fraud-detection/
-├── data/ # Raw and processed data (gitignored)
-├── notebooks/ # Jupyter notebooks for each phase
-│ ├── eda-fraud-data.ipynb
-│ ├── eda-creditcard.ipynb
-│ ├── feature-engineering.ipynb
-│ ├── modeling.ipynb
-│ └── shap-explainability.ipynb
-├── models/ # Saved trained model artifacts
-├── requirements.txt # Project dependencies
-├── README.md # This file
-└── .gitignore
+     ├── data/ # Raw and processed data (gitignored)
+     │ ├──  processed
+     │ ├── raw 
+     ├── notebooks/ # Jupyter notebooks for each phase
+     │ ├── eda-fraud-data.ipynb
+     │ ├── eda-creditcard.ipynb
+     │ ├── feature-engineering.ipynb
+     │ ├── modeling.ipynb
+     │ └── shap-explainability.ipynb
+     ├── models/ # Saved trained model artifacts
+     ├──scr 
+     │ ├── __init__.py
+     ├──Scripts 
+     │ ├── __init__.py
+     ├── tests 
+     │ ├── __init__.py
+     ├── requirements.txt # Project dependencies
+     ├── README.md # This file
+     └── .gitignore
 
