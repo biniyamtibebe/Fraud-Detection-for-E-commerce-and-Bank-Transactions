@@ -4,7 +4,7 @@ def load_csv(path: str, required_cols=None):
     """
     Load CSV with basic validation.
     """
-    df = pd.read_csv(path)
+    df = pd.read_csv(r"C:\Users\hp\Music\Adey Innovations inc\Fraud-Detection-for-E-commerce-and-Bank-Transactions\data\raw\Fraud_Data.csv")
 
     if required_cols:
         missing = set(required_cols) - set(df.columns)

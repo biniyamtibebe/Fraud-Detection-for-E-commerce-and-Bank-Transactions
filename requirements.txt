@@ -6,3 +6,5 @@ scikit-learn
 imbalanced-learn
 xgboost  # Or lightgbm/randomforest if preferred
 shap
+scikit-learn==1.0.2
+imbalanced-learn==0.8.0
