@@ -30,7 +30,7 @@ The project uses multiple real-world style datasets:
 
 ## Repository Structure
 
-fraud-detection/
+```fraud-detection/
       ├── data/ # Raw and processed data (gitignored)
       │ ├──  processed
       │ ├── raw 
@@ -107,7 +107,7 @@ The Random Forest model was selected as the final model due to:
 
 ---
 
-## Task 3 – Model Explainability (SHAP)
+ ## Task 3 – Model Explainability (SHAP)
 
 ### Built-in Feature Importance
 - Extracted from Random Forest
@@ -174,11 +174,15 @@ These recommendations are directly grounded in model explanations, not black-box
    python src/data_loading.py
    python src/preprocessing.py
 
+---
+
 3. Train models:
 
   ```bash
   Copy code
   python src/modeling.py
+
+  ---
 
 4. Run explainability:
 
