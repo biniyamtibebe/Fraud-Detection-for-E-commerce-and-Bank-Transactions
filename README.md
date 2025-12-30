@@ -30,7 +30,7 @@ The project uses multiple real-world style datasets:
 
 ## Repository Structure
 
-```fraud-detection/
+ ```fraud-detection/
       ├── data/ # Raw and processed data (gitignored)
       │ ├──  processed
       │ ├── raw 
@@ -49,8 +49,8 @@ The project uses multiple real-world style datasets:
       │ ├── __init__.py
       ├── requirements.txt # Project dependencies
       ├── README.md # This file
-      └── .gitignore
-
+      └── .gitignore 
+```
 ---
 
 ## Task 1 – Data Preparation & Feature Engineering
@@ -167,21 +167,21 @@ These recommendations are directly grounded in model explanations, not black-box
 1. Install dependencies:
    ```bash
    pip install -r requirements.txt
+   ```
 
 2. Run preprocessing:
-  ``` bash
+   ``` bash
    Copy code
    python src/data_loading.py
    python src/preprocessing.py
-
----
+   ```
 
 3. Train models:
 
   ```bash
   Copy code
   python src/modeling.py
-
+  ```
   ---
 
 4. Run explainability:
@@ -189,3 +189,4 @@ These recommendations are directly grounded in model explanations, not black-box
   ```bash
   Copy code
   python src/explainability.py
+  ```
