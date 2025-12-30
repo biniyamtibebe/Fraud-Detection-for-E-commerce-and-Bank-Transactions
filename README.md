@@ -31,25 +31,25 @@ The project uses multiple real-world style datasets:
 ## Repository Structure
 
 fraud-detection/
-     ├── data/ # Raw and processed data (gitignored)
-     │ ├──  processed
-     │ ├── raw 
-     ├── notebooks/ # Jupyter notebooks for each phase
-     │ ├── eda-fraud-data.ipynb
-     │ ├── eda-creditcard.ipynb
-     │ ├── feature-engineering.ipynb
-     │ ├── modeling.ipynb
-     │ └── shap-explainability.ipynb
-     ├── models/ # Saved trained model artifacts
-     ├──scr 
-     │ ├── __init__.py
-     ├──Scripts 
-     │ ├── __init__.py
-     ├── tests 
-     │ ├── __init__.py
-     ├── requirements.txt # Project dependencies
-     ├── README.md # This file
-     └── .gitignore
+      ├── data/ # Raw and processed data (gitignored)
+      │ ├──  processed
+      │ ├── raw 
+      ├── notebooks/ # Jupyter notebooks for each phase
+      │ ├── eda-fraud-data.ipynb
+      │ ├── eda-creditcard.ipynb
+      │ ├── feature-engineering.ipynb
+      │ ├── modeling.ipynb
+      │ └── shap-explainability.ipynb
+      ├── models/ # Saved trained model artifacts
+      ├──scr 
+      │ ├── __init__.py
+      ├──Scripts 
+      │ ├── __init__.py
+      ├── tests 
+      │ ├── __init__.py
+      ├── requirements.txt # Project dependencies
+      ├── README.md # This file
+      └── .gitignore
 
 ---
 
@@ -169,20 +169,19 @@ These recommendations are directly grounded in model explanations, not black-box
    pip install -r requirements.txt
 
 2. Run preprocessing:
-
-'''bash
-Copy code
-python src/data_loading.py
-python src/preprocessing.py
+  ``` bash
+   Copy code
+   python src/data_loading.py
+   python src/preprocessing.py
 
 3. Train models:
 
-'''bash
-Copy code
-python src/modeling.py
+  ```bash
+  Copy code
+  python src/modeling.py
 
 4. Run explainability:
 
-'''bash
-Copy code
-python src/explainability.py
+  ```bash
+  Copy code
+  python src/explainability.py
